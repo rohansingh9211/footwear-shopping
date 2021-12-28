@@ -1,0 +1,45 @@
+.Heading {
+  background: linear-gradient(aqua,grey);
+  margin-top: 0%;
+  padding: 0% 0%;
+}
+.Headingimg{
+  display: block;
+  text-align: center;
+}
+.Headingimg h1 {
+  color: red;
+}
+.Headingimg h4{
+  color: grey;
+  font-size: 100%;
+}
+.Headingimg img {
+ width: 30%;
+}
+.Headingimg li{
+  display: flex;
+  font-size: 63%;
+  padding: 0% 1%;
+}
+.Headingimg select{
+  display: inherit;
+ margin: 0% 1%;
+ border: none;
+ color: blue;
+ background: transparent;
+}
+.Headingimg p{
+  display: grid;
+  text-align: end;
+  padding: 0% 10%;
+  margin-top: -6%;
+}
+.Headingimg>.HeadingButton {
+  border: 1px solid black;
+  background: linear-gradient(orange,transparent);
+  font-weight: bold;
+  padding: 0% 2%;
+  border-radius: 25px;
+  margin: 3%;
+}

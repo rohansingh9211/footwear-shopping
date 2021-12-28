@@ -1,0 +1,118 @@
+.Header
+{
+  background: linear-gradient(grey,transparent);
+  background-repeat: no-repeat;
+  display: grid;
+  grid-template-columns: 1fr 8fr 1fr;
+  justify-content: center;
+  align-items: center;
+  
+}
+.Header img
+{
+    width: 4rem;
+}
+.Header h1
+{
+    color: brown;
+    text-align: center;
+    color:rgb(12, 10, 10);
+  
+}
+.Header button
+{
+  margin: auto 11%;
+  background: linear-gradient(45deg, orange, transparent);
+  border: 1px solid black;
+}
+.SubHeader
+{
+  text-align: start;
+}
+.SubHeader button
+{
+    padding: 10px 1%;
+    margin-left: 1%;
+    background: linear-gradient(45deg, orange, transparent);
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(17, 17, 17);
+}
+.SubHeader button :hover
+{
+  background:linear-gradient(rgb(226, 74, 74),white);
+}
+.Header{
+  color: rgb(146, 80, 80);
+}
+.HeadingImage{
+  background-color: white;
+}
+.HeadingImage img
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  box-shadow: 12px 5px 14px 10px;
+}
+.HeadingImage h1
+{
+  text-align: center;
+  color: rgb(34, 34, 95);
+  margin-top: 5%;
+}
+.HeadingImage p
+{
+  text-align: center;
+  color: grey;
+  font-size: 100%;
+}
+.HeadingImage button
+{
+  margin: 7px;
+  position: relative;
+  left: 30%;
+  top: 20px;
+  background: orangered;
+  font-weight: bold;
+}
+.drop 
+{
+  text-align: end;
+  position: sticky;
+  top: 80%;
+}
+.drop button
+{
+  border: 2px solid grey;
+  background-color: linear-gradient(transparent,grey);
+}
+.Instruction
+{
+  background: orange;
+  padding: 3% 20%;
+  margin-top: 6%;
+}
+.part
+{
+  text-align: left;
+  display: flex;
+  margin-left: 0%;
+}
+.second_part
+{
+  text-align: inherit;
+  display: flex;
+  justify-content: end;
+  margin-top: -8em;
+}
+.Language{
+  text-align: center;
+  justify-content: center;
+}
+.Language select{
+  background-color: orangered;
+  border: 1px solid black;
+  font-weight: bold;
+}
